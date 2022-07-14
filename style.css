@@ -31,20 +31,34 @@ body {
 
 #interest_msg {
   font-weight: lighter;
+  margin-right: 10px;
   margin-left: 20px;
   font-size: 20px;
   display: inline;
 }
 
+#my_interests {
+  text-align: left;
+}
+
+.header_bullet {
+  display: inline;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+
 .interest {
   font-size: 20px;
   color: white;
-  display: inline;
+  display: inline-flex;
   font-family: sans-serif;
   background-color: rgb(10, 46, 109);
-  padding: 10px;
+  padding: 7px 15px;
   border-radius: 20px;
-  margin-right: 10px;
+  margin: 0px;
+  margin-right: 0px;
 }
 
 #content {
